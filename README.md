@@ -24,7 +24,7 @@ After get the prior sequence and its function, we can generated sequence by foll
 
 `--decode_model_name_or_path	The InstructNA model path ( including encoder and decoder)`	
 
-`--Kd_seq_path			The sequences with fucntion file path ,the file is .csv file and formate is 				  	 						  "				ACTGGACTGGACTGGACTGG,12.3 `
+`--Kd_seq_path			The sequences with fucntion file path ,the file is .csv file and formate is "ACTGGACTGGACTGGACTGG,12.3",which means the sequence ACTGGACTGGACTGGACTGG and its fucntion `
 
 `--Kd_seq_data_dir		The sequences in Kd_seq_path that been seperated with 3mers like ACT CTG TGG...			` 
 
